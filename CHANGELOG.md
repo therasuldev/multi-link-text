@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * TODO: Bug fix {image}.
+
+## 0.0.4
+
+* TODO: repository URL doesn't exist.

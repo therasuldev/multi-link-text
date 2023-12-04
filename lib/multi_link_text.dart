@@ -61,11 +61,13 @@ class _MultiLinkTextState extends State<MultiLinkText> {
   // Function to determine the style of a word based on its type.
   TextStyle? _style({required String paramKey}) {
     // Check if the word is a clickable word (exists in widget.params).
-    if (widget.params.keys.any((key) => RegExp(r'\b' + key + r'\b').hasMatch(paramKey))) {
+    if (widget.params.keys
+        .any((key) => RegExp(r'\b' + key + r'\b').hasMatch(paramKey))) {
       return widget.paramsStyle; // Return style for clickable words.
     }
     // Check if the word is a non-clickable word (exists in widget.extraParams).
-    else if (widget.extraParams != null && widget.extraParams!.contains(paramKey)) {
+    else if (widget.extraParams != null &&
+        widget.extraParams!.contains(paramKey)) {
       return widget.extraParamsStyle; // Return style for non-clickable words.
     }
     // In this case, the word doesn't match any predefined styles, so it won't receive any specific style.

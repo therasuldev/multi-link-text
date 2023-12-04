@@ -24,7 +24,7 @@ To use this package, add **multi_link_text** as a dependency in your `pubspec.ya
 dependencies:
   flutter:
     sdk: flutter
-  multi_link_text: ^0.0.3  # Use the latest version
+  multi_link_text: ^0.0.4  # Use the latest version
 ```
 ‼️ Then run the following command to fetch the package:
 
