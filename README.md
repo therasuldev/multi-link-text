@@ -6,17 +6,14 @@ PHOTO
 
 ## Features
 
-### Clickable Links
+**Clickable Links**
+- `MultiLinkText` allows you to specify certain words as clickable links, and you can define actions to be performed when those links are clicked.
 
-`MultiLinkText` allows you to specify certain words as clickable links, and you can define actions to be performed when those links are clicked.
+**Rich Text Support**
+- It supports rich text formatting, enabling you to customize the appearance of different words in the text.
 
-### Rich Text Support
-
-It supports rich text formatting, enabling you to customize the appearance of different words in the text.
-
-### Paragraph Handling
-
-You can include paragraph breaks in the text, and the widget will handle them accordingly.
+**Paragraph Handling**
+-You can include paragraph breaks in the text, and the widget will handle them accordingly.
 
 
 ## Installation
