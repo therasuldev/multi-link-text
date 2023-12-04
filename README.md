@@ -1,95 +1,39 @@
-# Multi Link Text
+<!--
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
 
-A Flutter package multi_link_text allows you to create text with clickable links and additional styling options.
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
 
-PHOTO
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/guides/libraries/create-library-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/developing-packages).
+-->
+
+TODO: Put a short description of the package here that helps potential users
+know whether this package might be useful for them.
 
 ## Features
 
-### Clickable Links
+TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-`MultiLinkText` allows you to specify certain words as clickable links, and you can define actions to be performed when those links are clicked.
+## Getting started
 
-### Rich Text Support
-
-It supports rich text formatting, enabling you to customize the appearance of different words in the text.
-
-### Paragraph Handling
-
-You can include paragraph breaks in the text, and the widget will handle them accordingly.
-
-
-## Installation
-
-To use this package, add **multi_link_text** as a dependency in your `pubspec.yaml` file.
-
-```bash
-dependencies:
-  flutter:
-    sdk: flutter
-  multi_link_text: ^0.0.1  # Use the latest version
-```
-‼️ Then run the following command to fetch the package:
-
-```bash
-flutter clean
-flutter pub get
-```
-
+TODO: List prerequisites and provide or point to information on how to
+start using the package.
 
 ## Usage
 
+TODO: Include short and useful examples for package users. Add longer examples
+to `/example` folder.
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:multi_link_text/multi_link_text.dart';
-
-void main() {
-  runApp(const MultiLinkTextExample());
-}
-
-class MultiLinkTextExample extends StatelessWidget {
-  const MultiLinkTextExample({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Multi Link Text example'),
-          backgroundColor: Colors.orange,
-        ),
-        body: const Center(
-          child: MultiLinkText(
-            data: 'It is Multi Link Text package. How to use it? Click ME !',
-            params: {'ME': 'https://www.google.com'},
-            extraParams: ['Multi', 'Link', 'Text', 'How'],
-            paragraph: ['How'],
-            extraParamsStyle: TextStyle(
-              decoration: TextDecoration.underline,
-              decorationStyle: TextDecorationStyle.wavy,
-              color: Colors.green,
-              fontSize: 25,
-            ),
-            paramsStyle: TextStyle(
-              decoration: TextDecoration.underline,
-              decorationStyle: TextDecorationStyle.wavy,
-              color: Colors.orange,
-              fontSize: 20,
-              decorationColor: Color(0xFFFF6F00),
-            ),
-            style: TextStyle(fontSize: 25, color: Colors.black),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-
+const like = 'sample';
 ```
 
-## Contributing
+## Additional information
 
-Contributions are welcome! Please feel free to submit issues and pull requests.
+TODO: Tell users more about the package: where to find more information, how to
+contribute to the package, how to file issues, what response they can expect
+from the package authors, and more.
