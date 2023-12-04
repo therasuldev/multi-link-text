@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * TODO: Bug fix.
+
+## 0.0.3
+
+* TODO: Bug fix {image}.
