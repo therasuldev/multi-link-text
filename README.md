@@ -2,7 +2,7 @@
 
 A Flutter package multi_link_text allows you to create text with clickable links and additional styling options.
 
-PHOTO
+<img width="379" alt="Screenshot 2023-12-04 at 22 57 23" src="https://github.com/therasuldev/multi-link-text/assets/74558294/f1982df8-e6c3-46c6-baaf-3c4f0e9a2b86">
 
 ## Features
 
