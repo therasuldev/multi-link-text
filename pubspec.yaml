@@ -1,0 +1,21 @@
+name: multi_link_text
+description: "A Flutter package multi_link_text allows you to create text with clickable links and additional styling options."
+version: 0.0.1
+homepage:
+repository:
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
