@@ -54,8 +54,8 @@ class MultiLinkText extends StatefulWidget {
 class _MultiLinkTextState extends State<MultiLinkText> {
   // Function to extract words from the input text and return them in a list format.
   List<String> _params() {
-    final sentenceParams = widget.data.trim().split(RegExp(r'\s+'));
-    return sentenceParams;
+    final textParams = widget.data.trim().split(RegExp(r'\s+'));
+    return textParams;
   }
 
   // Function to determine the style of a word based on its type.
@@ -117,10 +117,10 @@ class _MultiLinkTextState extends State<MultiLinkText> {
   @override
   void initState() {
     super.initState();
-    _sentenceParams = _params();
+    _textParams = _params();
   }
 
-  late List<String> _sentenceParams;
+  late List<String> _textParams;
 
   @override
   Widget build(BuildContext context) {
@@ -128,9 +128,9 @@ class _MultiLinkTextState extends State<MultiLinkText> {
       TextSpan(
         style: widget.style,
         children: List.generate(
-          _sentenceParams.length,
+          _textParams.length,
           (index) {
-            final word = _sentenceParams[index];
+            final word = _textParams[index];
             return TextSpan(
               text: _text(word: word),
               style: _style(paramKey: word),
