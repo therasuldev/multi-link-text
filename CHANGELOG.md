@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * TODO: repository URL doesn't exist.
+
+## 0.0.5
+
+* TODO: code refactoring.
